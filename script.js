@@ -1,4 +1,4 @@
-function convertRonom() {
+{
   const number = document.getElementById('number-input').value;
   const resultElement = document.getElementById('result');
 
@@ -20,7 +20,7 @@ function convertRonom() {
     { value: 9, numeral: 'IX' },
     { value: 5, numeral: 'V' },
     { value: 4, numeral: 'IV' },
-    { value: 1, numeral: 'I' }
+    { value: 1, numeral: 'I' },
   ];
 
   let roman = '';
@@ -28,8 +28,8 @@ function convertRonom() {
 
   for (let i = 0; i < romanNumerals.length; i) {
     while (num >= romanNumerals[i].value) {
-        roman += romanNumerals[i].numeral;
-        num -= romanNumerals[i].value;
+      roman += romanNumerals[i].numeral;
+      num -= romanNumerals[i].value;
     }
   }
 
