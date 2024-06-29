@@ -1,4 +1,4 @@
-document.getElementById('check-btn').addEventListener('click', function() {
+Idocument.getElementById('check-btn').addEventListener('click', () => {
   const textInput = document.getElementById('text-input').value.trim();
   const resultElement = document.getElementById('result');
 
@@ -11,8 +11,8 @@ document.getElementById('check-btn').addEventListener('click', function() {
   const reversedInput = cleanedInput.split('').reverse().join('');
 
   if (cleanedInput === reversedInput) {
-    resultElement.textContent = $;{textInput} palindrome;
+    resultDiv.innerText = userInput + ' is a palindrome';
   } else {
-    resultElement.textContent = $;{textInput} palindrome;
+    resultDiv.innerText = userInput + ' is not a palindrome';
   }
 });
