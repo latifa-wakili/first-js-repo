@@ -4,14 +4,13 @@ first-js-repo
 this palindrome project is a basic sample of JS project created using html css and js codes
 
 ## Demo 📸
-![Demo]
-(first-repo.png)
+![Demo](first-repo.png)
 
 ## Technologies Used 🛠️
 
 - HTML
 - CSS
--JS
+- JS
 
 ## Installation 💻
 
@@ -25,7 +24,8 @@ Provide step-by-step instructions on how to install and set up your project. Inc
 # cd first-js-repo.
 ```
 
-# vscode.
+```bash
+# code .
 ```
 
 ## Usage 🎯
